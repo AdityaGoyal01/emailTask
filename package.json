@@ -1,0 +1,15 @@
+{
+  "name": "email_service_project",
+  "version": "1.0.0",
+  "description": "## Overview A JavaScript email service that: - Retries on failure (with exponential backoff) - Switches between two providers (fallback) - Prevents duplicate sends (idempotency) - Rate-limits email requests - Tracks status of all attempts - Includes circuit breaker + queue system",
+  "main": "emailService.js",
+  "scripts": {
+    "test":  "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
